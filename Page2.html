@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+        
+            <div class="right-side">
+                <div class="brand">
+                <div> JON MCGAHA </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper"> 
+            <div class="portfolio-items-wrapper">
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/sunflower5.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <a href="Page1.html"><img src="images/IMG_2850.JPG"></a>
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/sunflower6.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/IMG_2850.JPG">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/sunflower1.jpeg);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/IMG_2850.JPG">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/sunflower2.jpeg);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/IMG_2850.JPG">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/sunflower3.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/IMG_2850.JPG">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/cactus.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <a href="Thumper.html" <img src="images/IMG_2850.JPG">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/coolassdog.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/download.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/middle-earth.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/download.jpg">
+                        </div>
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/IMG_3397.jpeg);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/download.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/IMG_3397.jpeg);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/download.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/IMG_3397.jpeg);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/download.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/sunflower4.JPG);"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/download.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            I hope this works!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItems => {
+        portfolioItems.addEventListener('mouseover' , () => {
+            portfolioItems.childNodes[1].classList.add('img-darken');
+        })
+        portfolioItems.addEventListener('mouseout' , () => {
+            portfolioItems.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+</html>
