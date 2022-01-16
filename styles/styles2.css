@@ -1,5 +1,5 @@
 body { /* body apply's to entire html page */
-    margin: 0px; /* Default margin is 8px; pushes items out to edge slightly more */
+    margin: 0; /* Default margin is 8px; pushes items out to edge slightly more */
 }
 
 .container {
@@ -66,7 +66,7 @@ body { /* body apply's to entire html page */
     top:0;
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    /*justify-content: top;*/
     align-content:center;
     height: 100%;
     text-align: center;
@@ -97,12 +97,17 @@ body { /* body apply's to entire html page */
 
 .logo-wrapper img {
     transition: 1s;
-    opacity: 0%; 
+    opacity: 0;
 }
 
 .logo-wrapper:hover img {
     transition:1s;
     opacity: 85%;
     padding-top: 20px;
+}
+
+.git {
+    color: tomato;
+
 }
 
