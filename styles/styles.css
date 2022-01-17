@@ -52,3 +52,25 @@ body {
 .nav-link-wrapper a:hover {  /* telling to check for mouse if hovering over button do whatever function below */
   color: black; /* when mmouse hovers over a button it changes color to black over a half a second */
 }
+
+.b1 {
+  background-color: orangered;
+  border-radius: 5px; /* makes border/edges round (usually around 5px or 10px )*/
+  box-shadow: 0 -2px 5px rgba(34,34,34,0.6); /* blurs the border edge; and creates a shadow on edge */
+}
+.b2 {
+  background-color: orangered;
+  border-radius: 5px;                         /* makes border/edges round (usually around 5px or 10px )*/
+  box-shadow: 0 -2px 5px rgba(34,34,34,0.6);   /* blurs the border edge; and creates a shadow on edge */
+}
+.b3 {
+  background-color: orangered;
+  border-radius: 5px;                           /* makes border/edges round (usually around 5px or 10px )*/
+  box-shadow: 0 -2px 5px rgba(34,34,34,0.6);    /* blurs the border edge; and creates a shadow on edge */
+}
+
+.h2_under_construction {
+  font-family: cursive;
+  font-size: 24px;
+  color: red;
+}
