@@ -5,12 +5,14 @@ body {
 
 .git {
   color:magenta;
+  background-color: crimson;
 }
 
 .wrapper {
   color: blue;
   display:grid;
   grid-template-columns:60% 40%;
+  background-color: lavender;
 }
 .container {
   display: grid;
@@ -22,6 +24,7 @@ body {
   display: flex; /* Moves elements next to each other instead of on top of each other */
   justify-content: space-between;/* Spaces out div's putting white space inbetween */
   padding: 20px; /* moves items away from edge and slightly spaces them out */
+  background-color: green;
 }
 
 .left-side {
