@@ -24,13 +24,13 @@
                     <a href="Page2.html">Page2</a>
                 </div>
                 </div>
-            </div>
             <div class="right-side">
                 <div class="brand">
-                <div> JON MCGAHA </div>
+                    <div> JON MCGAHA </div>
                 </div>
             </div>
         </div>
+    </div>
     <div class="wrapper">
         <div>
             <p>Hello and welcome to my page!!!!!</p>
@@ -44,12 +44,25 @@
                 <li><a href="/images/code1.pdf">C++ Funny Tip Program</a></li>
             </ol>
         </div>
-   
+
         <div>
             <button>
                 <a class="git" href="https://github.com/BsMWgEr">Github Repo</a>
             </button>
-            <div id="like_button_container"></div>
+            <div class="like_button_container" data-comment-id="1"></div>
+            <form>
+                <label>
+                    Name:
+                    <input type="text" name="name" />
+                </label>
+                <input type="submit" value="Submit" />
+                <label>
+                    Name:
+                    <input type="text" name="name" />
+                </label>
+                <input type="submit" value="Submit" />
+            </form>
+            <div class="like_button_container" data-comment-id="2"></div>
         </div>
     </div>
     <!-- ... other HTML ... -->
@@ -60,5 +73,6 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
     <!-- Load our React component. -->
     <script src="Components/like_button.js"></script>
+
 </body>
 </html>
