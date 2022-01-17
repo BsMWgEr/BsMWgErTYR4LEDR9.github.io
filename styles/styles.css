@@ -12,3 +12,40 @@ body {
   display:grid;
   grid-template-columns:70% 30%;
 }
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+   /* 1 fractional unit */
+}
+
+.nav-wrapper {
+  display: flex; /* Moves elements next to each other instead of on top of each other */
+  justify-content: space-between;/* Spaces out div's putting white space inbetween */
+  padding: 38px; /* moves items away from edge and slightly spaces them out */
+}
+
+.left-side {
+  display: flex;/* */
+}
+
+.nav-wrapper > .left-side > div {    /* Traversing a tree; This is only accessing the div contained inside left-side and inside nav-wrapper*/
+  margin-right: 20px;/* scoots to the right by 20 pixels  */
+  font-size: 0.9em; /*  default font size is 1em this makes it 90% of 1em */
+  text-transform: uppercase;/* changes the text from current state into specified state */
+}
+
+.nav-link-wrapper {    /* */
+  height: 22px;/*  */
+  border-bottom: 1px solid transparent;/* making a bottom border that would look like an underline */
+  transition: border-bottom 0.5s;/* bring in animation from bottom of border; half a second */
+}
+
+.nav-link-wrapper a {   /* inside of nav link wrapper grab a link */
+  color: #8a8a8a;
+  text-decoration: none;/* removes underline from links */
+  transition: color 0.5s;/* brings in animations for half a second */
+}
+
+.nav-link-wrapper a:hover {  /* telling to check for mouse if hovering over button do whatever function below */
+  color: black; /* when mmouse hovers over a button it changes color to black over a half a second */
+}
