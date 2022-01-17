@@ -21,7 +21,7 @@ body {
 .nav-wrapper {
   display: flex; /* Moves elements next to each other instead of on top of each other */
   justify-content: space-between;/* Spaces out div's putting white space inbetween */
-  padding: 38px; /* moves items away from edge and slightly spaces them out */
+  padding: 20px; /* moves items away from edge and slightly spaces them out */
 }
 
 .left-side {
