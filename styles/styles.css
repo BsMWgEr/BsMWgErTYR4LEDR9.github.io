@@ -49,9 +49,7 @@ body {
   transition: color 0.5s;/* brings in animations for half a second */
 }
 
-.nav-link-wrapper a:hover {  /* telling to check for mouse if hovering over button do whatever function below */
-  color: black; /* when mmouse hovers over a button it changes color to black over a half a second */
-}
+
 
 .b1 {
   background-color: orangered;
@@ -70,7 +68,23 @@ body {
 }
 
 .h2_under_construction {
-  font-family: cursive;
+  font-family: monospace;
   font-size: 24px;
   color: red;
 }
+
+#repo{
+  background-color: deeppink;
+  border-radius: 5px;
+  min-height: 100px;
+
+}
+
+#repo:hover {
+  opacity: 60%;
+}
+
+#tag1:menu {
+
+}
+

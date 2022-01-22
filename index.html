@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles_drop_menu.css">
     <title>Home</title>
 </head>
 <body>
@@ -12,7 +13,12 @@
         <div class="nav-wrapper">
             <div class="left-side">
                 <div class="nav-link-wrapper">
-                    <a href="index.html">Home</a>
+                    <div class="dropdown">
+                        <a href="index.html">Home</a>
+                            <div class="dropdown-content">
+                                <a href="https://www.google.com">click me</a>
+                            </div>
+                    </div>
                 </div>
                 <div class="nav-link-wrapper">
                     <a href="about.html">About</a>
@@ -35,7 +41,7 @@
         <div>
             <p>Hello and welcome to my page!!!!!</p>
             <p>Press the Like button and see if you win!</p>
-            <h2 class="h2_under_construction">UNDER CONSTRUCTION</h2>
+            <h2 class="h2_under_construction"><a href="https://bsmwger.github.io/HTML-CSS-Practice/">BETA Site</a></h2>
 
                 <div>
                     <button class="b1" onclick="document.location='Page1.html'">Page 1</button>
@@ -52,7 +58,7 @@
 
         <div>
             <div>
-                <button onclick="document.location='https://github.com/BsMWgEr'">Github Repo</button>
+                <button id="repo" onclick="document.location='https://github.com/BsMWgEr'">Github Repo</button>
             </div>
             <div class="like_button_container" data-comment-id="1"></div>
             <form>
