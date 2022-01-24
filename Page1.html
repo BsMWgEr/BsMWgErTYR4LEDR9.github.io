@@ -57,14 +57,14 @@
     };
     
     function ShowIP(response) {
-        document.getElementById("ipaddress").innerHTML = "Current IP Address is " + response.ip;
-        alert "Your ipaddress is " + response.ip;
+        document.getElementByClassName("ipaddress").innerHTML = "Current IP Address is " + response.ip;
+        alert ("Your ipaddress is " + response.ip);
     };
 
 
     </script>
     <ol>
-        <li><p id="ipaddress"></p></li>
+        <li><p class="ipaddress"></p></li>
         
     </ol>
 </body>
