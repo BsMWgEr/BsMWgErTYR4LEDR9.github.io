@@ -84,3 +84,7 @@ body {
   opacity: 60%;
   background-color:rgb(14, 153, 32);
 } 
+
+a {
+  text-decoration:none;
+}
