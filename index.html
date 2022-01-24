@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="nav-link-wrapper">
-                    <a id="button_alert" href="about.html">About</a>
+                    <a href="about.html">About</a>
                 </div>
                 <div class="nav-link-wrapper">
                     <a href="Page1.html">Page1</a>
@@ -48,7 +48,7 @@
         <div>
             <p>Hello and welcome to my page!!!!!</p>
             <p>Press the Like button and see if you win!</p>
-            <h2 class="h2_under_construction"><a href="https://bsmwger.github.io/HTML-CSS-Practice/">BETA Site</a></h2>
+            <h2 class="h2_under_construction" id="button_alert"><a href="https://bsmwger.github.io/HTML-CSS-Practice/">BETA Site</a></h2>
 
                 <div>
                     <button class="b1" onclick="document.location='Page1.html'">Page 1</button>
@@ -92,7 +92,7 @@
     <!-- Load our React component. -->
     <script src="Components/like_button.js"></script>
     <script>
-        let x = document.getElementById("button_alert");
+        let x = document.getElementsByClassName("button_alert");
         x.addEventListener("click", clickFunction);
         function clickFunction() {
             alert ("This webpage frequently changes");
