@@ -82,9 +82,5 @@ body {
 
 #repo:hover {
   opacity: 60%;
-}
-
-#tag1:menu {
-
-}
-
+  background-color:rgb(14, 153, 32);
+} 
