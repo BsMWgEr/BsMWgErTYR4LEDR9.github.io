@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="nav-link-wrapper">
-                    <a href="about.html">About</a>
+                    <a id="button_alert" href="about.html">About</a>
                 </div>
                 <div class="nav-link-wrapper">
                     <a href="Page1.html">Page1</a>
@@ -91,6 +91,13 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
     <!-- Load our React component. -->
     <script src="Components/like_button.js"></script>
+    <script>
+        let x = document.getElementById("button_alert");
+        x.addEventListener("click", clickFunction);
+        function clickFunction() {
+            alert ("This webpage frequently changes");
+        }
+    </script>
 
 </body>
 </html>
